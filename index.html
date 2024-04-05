@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budgeting App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="font-[Poppins]">
+    <nav class="bg-slate-400 md:flex md:justify-between md:items-center">
+        <div class="flex cursor-pointer justify-between items-center"> 
+            <div class="flex cursor-pointer justify-between items-center">
+                <img class="h-12 m-3 rounded-lg" src="./images/logo.png" alt="logo">
+                <h1 class="text-black text-lg font-extrabold mt-0">PocketTracker</h1>
+            </div>
+            <div>
+                <ion-icon class="text-3xl cursor-pointer md:hidden block" onclick="Menu(this)" name="menu"></ion-icon>
+            </div>
+        </div>
+        <div> 
+            <ul class="md:flex md:items-center md:justify-between md:static absolute md:z-auto bg-slate-400 w-full left-0 md:w-auto md:pl-0 pl-14 md:py-0 py-4 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+                <li class="text-black m-4 hover:text-white duration-500"><button>Add Budget</button></li>
+                <li class="text-black m-4 hover:text-white duration-500"><button>Add Expenses</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <script>
+        function Menu(e) {
+            let list = document.querySelector('ul');
+
+            e.name === 'menu' ? (e.name = 'close', list.classList.add('top-[80px]'), list.classList.add('opacity-100')) : (e.name = 'menu', list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'));
+        }
+    </script>
+</body>
+</html>
+
+
+</html>
