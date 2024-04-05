@@ -1,3 +1,5 @@
+# PocketTracker
+
 PocketTracker is a user-friendly budgeting platform designed to empower individuals to take control of their finances. Unlike traditional budgeting tools that impose rigid frameworks, Pocket Tracker recognizes the diverse financial needs and realities of its users. It offers a customizable approach to budgeting, allowing users to tailor their budgets to suit their unique lifestyles and goals.
 
 ## Key Features:
