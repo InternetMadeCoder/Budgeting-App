@@ -4,14 +4,18 @@ PocketTracker is a user-friendly budgeting platform designed to empower individu
 
 ## Key Features:
 
-- **Personalized Budgeting:** Pocket Tracker enables users to create personalized budgets that reflect their individual financial situations. Users can set spending goals for different categories, adjust allocations, and incorporate income fluctuations and irregular earnings.
+PocketTracker offers the following features:
 
-- **Interactive Dashboards:** The app features interactive dashboards that visualize spending patterns, track progress towards goals, and highlight areas for potential savings. These visualizations make it easy for users to monitor their financial health and stay on track with their budgeting goals.
+- **Setting Total Budget:** Users can input their total budget amount using the "Set Total" button. If the entered amount is valid (greater than zero), it will update the displayed balance amount.
 
-- **Sign Up or Log In:** New users can sign up for a Pocket Tracker account, while existing users can log in to access their personalized dashboard.
+- **Adding Expenses:** Users can add expenses by entering the product name and expense amount, then clicking the "Add Expense" button. This updates the current expenditure and remaining balance dynamically.
 
-- **Set Up Your Budget:** Create a customized budget by setting spending goals, adjusting allocations, and incorporating debt repayment plans.
+- **Expense Management:** Each added expense is displayed in a list with options to edit or delete. Clicking the edit button allows users to modify existing expenses.
 
-- **Track Your Finances:** Use the interactive dashboard to visualize spending patterns, monitor progress towards goals, and receive personalized insights and recommendations.
+## Usage:
 
-- **Stay In Control:** With Pocket Tracker, take control of your finances, optimize your budget, and work towards long-term financial success.
+To use PocketTracker:
+
+- Input the total budget amount and click "Set Total".
+- Enter a product name and expense amount, then click "Add Expense".
+- View and manage expenses in the list (edit or delete).
